@@ -10,7 +10,7 @@ ifeq ($(LOCATION),)
 	$(error LOCATION is needed)
 endif
 	sed -e "s/API_KEY/${API_KEY}/" -e "s/LOCATION/${LOCATION}/" index.html.tmpl > index.html
-	docker rm -f tmp_bg_webserver
+	docker rm -f tmp_bg_webserver || echo "ok"
 	docker run -d \
 		--name tmp_bg_webserver \
 		-v $(shell pwd):/usr/share/nginx/html \
