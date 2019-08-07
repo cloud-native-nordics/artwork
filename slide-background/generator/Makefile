@@ -8,4 +8,5 @@ index.html:
 ifeq ($(API_KEY),)
 	$(error API_KEY is needed)
 endif
-	sed "s/API_KEY/${API_KEY}/" index.html.tmpl > index.html
+	sed -e "s/API_KEY/${API_KEY}/" -e "s/LOCATION/${LOCATION}/" background/index.html.tmpl > background/index.html
+	./capture.js

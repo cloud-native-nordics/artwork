@@ -1,0 +1,14 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Background generator for Cloud Native Nordics meetups",
+  "main": "capture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.18.1"
+  }
+}
