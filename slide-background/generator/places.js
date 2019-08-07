@@ -16,5 +16,9 @@ var places = {
   tampere: {
     lat: 61.498333,
     lng: 23.764167
+  },
+  turku: {
+    lat: 60.451766,
+    lng: 22.266254
   }
 };
