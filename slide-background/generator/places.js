@@ -1,6 +1,9 @@
 // Define here all places
-
 var places = {
+  aalborg: {
+    lat: 57.055465, 
+    lng: 9.917825
+  },
   copenhagen: {
     lat: 55.676111,
     lng: 12.568333
