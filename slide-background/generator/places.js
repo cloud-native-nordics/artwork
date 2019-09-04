@@ -8,6 +8,10 @@ var places = {
     lat: 55.676111,
     lng: 12.568333
   },
+  gothenburg: {
+    lat: 57.702295,
+    lng: 11.972025
+  },
   helsinki: {
     lat: 60.164574,
     lng: 24.938838
