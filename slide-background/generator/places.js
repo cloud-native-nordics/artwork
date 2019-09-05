@@ -5,8 +5,8 @@ var places = {
     lng: 9.917825
   },
   aarhus: {
-     lat: 56.150222,
-     lng: 10.209139
+    lat: 56.150222,
+    lng: 10.209139
   },
   copenhagen: {
     lat: 55.676111,
