@@ -15,7 +15,7 @@ function timeout(ms) {
     height: 2160
   });
   await page.goto(`http://localhost`);
-  await timeout(1000);
+  await timeout(2000);
   await page.screenshot({ path: `screenshot.png` });
 
   await browser.close();
